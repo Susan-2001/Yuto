@@ -1,0 +1,12 @@
+def multiple_list(k):
+    #  k: 倍数の因子　　
+    pass
+    L=[]
+    for x in range(0,101):
+        if x%k ==0:
+            L.append(x)
+    return L
+    
+    for k in range(1, 100):
+    print(f'k={x}  ****** ')
+    print(multiple_list(x))
